@@ -18,7 +18,7 @@ const Navbar = () => {
             <h1>My Portfolio</h1>
         </Link>
         {/* the following are the links of the navbar that will redirect to the specific pages of the site, also the if statement on the click will show what menu to show in the mobile view from the css settings */}
-        <ul className={click ? ".nav-menu.active" : "nav-menu"}>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">Home</Link>
             </li>
