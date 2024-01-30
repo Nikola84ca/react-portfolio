@@ -8,17 +8,18 @@ Born and raised in Italy, I moved to the UK in 2015. I have always been interest
 
 ## Usage
 
-To use this app, simply follow the instructions in the Installation paragraph below, then lounch the prompt, go in the project directory where the index.js file is, and write the command:
+To view the website you can click [HERE](https://nikola84ca.github.io/react-portfolio/), and if you want to download the whole project and run the app on your machine, simply follow the instructions in the Installation paragraph below, then lounch the prompt, go in the project directory where the React project file is, and write the command:
 
 ```bash
-node index.js
+npm start
 ```
-Once the program has been lounched just follow the instructions and input the data you want to complete your Team. Here is an example of the prompt to generate an html file for your team:
+Make sure you have installed all the necessary node and react libraries. Once the app has been initialized it should open a new page in your browser and show the portfolio webpage. Here is an amination of the desktop view of the webpage:
 
 ![Gif animation of how to use the ReadMe File Generator app](/Images/TEAMhtml-Prompt.JPG)
 
 ## Installation
-First, make sure that Git and Git Bash are installed on your system. To download this project on your machine click [HERE](https://github.com/Nikola84ca/Team-Profile-Generator) to go to the repository on GitHub. Click on the green CODE button, and copy the link of the repository. In your machine, open gitBash and create a new folder where you will clone the project using the command below:
+
+First, make sure that Git and Git Bash are installed on your system. For this project you will also need to install node and react libraries. To download this project on your machine click [HERE](https://github.com/Nikola84ca/react-portfolio) to go to the repository on GitHub. Click on the green CODE button, and copy the link of the repository. In your machine, open gitBash and create a new folder where you will clone the project using the command below:
 
 ```bash
 Git mkdir your-project-folder
@@ -37,7 +38,13 @@ Open your editor with the command
 code .
 ```
 
-alternatively download the zip file in GitHub after pressing the Code button, unzip it and copy it in your project folder. Navigate to the folder using the cd command on gitbash and lounch your editor as shown above with the "code . " command.
+alternatively download the zip file in GitHub after pressing the Code button, unzip it and copy it in your project folder. Navigate to the folder using the cd command on gitbash and lounch your editor as shown above with the "code . " command. To run the app you will need to input the following command in the terminal:
+
+```bash
+npm start
+```
+
+Make sure you have node and react installed in your machine first, you can find very useful information about this process [HERE](https://www.pragimtech.com/blog/reactjs/install-reactjs/)
 
 ## App Description 
 
@@ -254,15 +261,15 @@ export default Navbar
 
 ## Credits
 
-I would like to thank all the teachers and TA of the EdX bootcamp for all the content provided and study materials. I found the information needed to implement the checkbox in the [www.npmjs.com](https://www.npmjs.com/package/inquirer) website. I also found fundamental information about the validation expressions, I researched online and found these useful articles on the [DEV](https://dev.to/bolouie/how-do-you-check-for-valid-email-input-3b3j) and [stack overflow](https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript?page=2&tab=scoredesc) websites. I then adapted them to my project to make sure the inputs from the users were correct.
+I would like to thank all the teachers and TA of the EdX bootcamp for all the content provided and study materials. I found the information needed to create the React project and push/deploy it to git hub very helpful and detailed in this article on [www.github.com](https://github.com/gitname/react-gh-pages) website. I have found very useful information about how to install node and react on [www.pragimtech.com](https://www.pragimtech.com/blog/reactjs/install-reactjs/). 
 
 ## Project Status and Upcoming Improvements
 
-The app is functional and easy to launch and use, the user can easily create the Team.html file and add all the descriptions and data needed for each team member needed. The next step will be to improve the web page created with a more user friendly html/css structure.
+The app is functional and easy to launch and use, and the website is easy to navigate and responsive. The theme is a bit dart and I plan a restyling soon to make it look fresher and more pleasent. 
 
 ## Collaborations and Contributions
 
-I welcome all the brilliant coders out there to join me in this project. Join effort can result in a fundamental learning experience for a beginner coder like me, so feel free to reach out with tips and advice. If you want to contribute to this project, pull requests are welcome, but if you want to make major changes, please open an issue first so that we can discuss what you would like to change. You can contact me on my GitHub profile [HERE](https://github.com/Nikola84ca) and visit this project repository by clicking [HERE](https://github.com/Nikola84ca/Team-Profile-Generator).
+I welcome all the brilliant coders out there to join me in this project. Join effort can result in a fundamental learning experience for a beginner coder like me, so feel free to reach out with tips and advice. If you want to contribute to this project, pull requests are welcome, but if you want to make major changes, please open an issue first so that we can discuss what you would like to change. You can contact me on my GitHub profile [HERE](https://github.com/Nikola84ca) and visit this project repository by clicking [HERE](https://github.com/Nikola84ca/react-portfolio).
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
