@@ -1,13 +1,56 @@
-body {
+/* Index.css is the file that will contain the global styling of the website, the styles that affect all the pages */
+
+/* This is the imported font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* This will set the color of the background of the website */
+body{
+  background: rgb(26, 26, 78);
 }
+
+/* I want the color of all text to be white, and for the link tags to have no underline */
+h1, h4, p, a {
+  color: white;
+  text-decoration: none;
+}
+
+/* This will remove the dot from the list elements */
+
+ul{
+  list-style-type: none;
+}
+
+
+/* The following code will style the buttons */
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: grey;
+  color: rgb(24, 24, 24);
+  border: 1px solid #fff;
+  border-radius: 5%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  /* background: rgba (255, 255, 255, 0.2); */
+  background: transparent;
+  color: white;
+}
+
+.btn:hoover {
+  background: rgba (255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+}
+
