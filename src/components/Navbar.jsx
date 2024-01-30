@@ -11,8 +11,21 @@ const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick (!click);
 
+// The following function will change the color of the navbar menu when in mobile view and will also make it scroll down with the content
+
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrolly >=100) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    };
+
+    window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
         {/* this is the logo of my webpage and will also link to the homepage */}
         <Link to="/">
             <h1>My Portfolio</h1>

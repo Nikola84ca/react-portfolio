@@ -12,7 +12,7 @@
 
 /* This will set the color of the background of the website */
 body{
-  background: rgb(26, 26, 78);
+  background: rgb(0, 0, 0);
 }
 
 /* I want the color of all text to be white, and for the link tags to have no underline */
@@ -48,8 +48,8 @@ ul{
   color: white;
 }
 
-.btn:hoover {
-  background: rgba (255, 255, 255, 0.2);
+.btn:hover {
+  background: rgb(39, 38, 38);
   color: white;
   transition: 0.3s;
 }
