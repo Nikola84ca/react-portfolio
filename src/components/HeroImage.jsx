@@ -8,7 +8,7 @@ const HeroImage = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="into-img" src={IntroImg} alt ="Image of laptop and code" />
+            <img className="into-img" src={IntroImg} alt ="laptop and code" />
         </div>
         <div className="content">
             <p>HI, I'M NICOLA AND I'M A</p>
